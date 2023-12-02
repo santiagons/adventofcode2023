@@ -1,7 +1,7 @@
 import * as fs from 'fs';
 
 const reverse = require("underscore.string/reverse");
-const words = fs.readFileSync('./input.2.txt', 'utf-8');
+const words = fs.readFileSync('./input.txt', 'utf-8');
 const wordList = words.split('\r\n');
 
 const numberRegex = /(\d|one|two|three|four|five|six|seven|eight|nine|eno|owt|eerht|ruof|evif|xis|neves|thgie|enin)/g;
